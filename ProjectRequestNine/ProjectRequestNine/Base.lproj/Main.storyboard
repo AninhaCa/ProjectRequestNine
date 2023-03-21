@@ -112,6 +112,55 @@
             </objects>
             <point key="canvasLocation" x="886" y="50"/>
         </scene>
+        <!--Rating View Controller-->
+        <scene sceneID="jde-Cb-gTG">
+            <objects>
+                <viewController storyboardIdentifier="rating" useStoryboardIdentifierAsRestorationIdentifier="YES" id="38R-rC-thQ" customClass="RatingViewController" customModule="ProjectRequestNine" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a6e-Nq-Knp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gav-OB-Lvo">
+                                <rect key="frame" x="72" y="70" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74S-hq-2ZN">
+                                <rect key="frame" x="171" y="357" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0r-Dm-cPI">
+                                <rect key="frame" x="186" y="516" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odF-6l-Qa1">
+                                <rect key="frame" x="171" y="783" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="back:" destination="38R-rC-thQ" eventType="touchUpInside" id="afc-Te-2kG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ylp-U1-w5d"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonBack" destination="odF-6l-Qa1" id="hlc-d4-08X"/>
+                        <outlet property="imageRating" destination="Gav-OB-Lvo" id="MJy-AX-UeG"/>
+                        <outlet property="labelName" destination="74S-hq-2ZN" id="LeE-sL-vMU"/>
+                        <outlet property="labelRating" destination="S0r-Dm-cPI" id="UVn-gK-5g9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GgI-3R-ZOB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1654" y="50"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
