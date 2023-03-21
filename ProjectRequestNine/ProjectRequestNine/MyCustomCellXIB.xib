@@ -16,18 +16,33 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poM-TT-Fxp">
-                        <rect key="frame" x="16" y="10" width="288" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poM-TT-Fxp">
+                        <rect key="frame" x="16" y="0.0" width="288" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="p4e-uT-eBl"/>
+                            <constraint firstAttribute="width" constant="288" id="zQ6-8v-fWV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r7b-rc-6GI">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r7b-rc-6GI">
                         <rect key="frame" x="16" y="39" width="288" height="161"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="161" id="Snn-Qy-UEM"/>
+                            <constraint firstAttribute="width" constant="288" id="tv5-0b-2mW"/>
+                        </constraints>
                     </imageView>
                 </subviews>
+                <color key="backgroundColor" red="0.87518689350000001" green="0.61558494470000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="r7b-rc-6GI" secondAttribute="trailing" constant="16" id="6kI-RR-aVc"/>
+                    <constraint firstItem="poM-TT-Fxp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="B8X-d6-ME2"/>
+                    <constraint firstItem="poM-TT-Fxp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="aCV-na-k18"/>
+                    <constraint firstItem="r7b-rc-6GI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="p0H-QG-dOx"/>
+                    <constraint firstAttribute="bottom" secondItem="r7b-rc-6GI" secondAttribute="bottom" id="pq1-Ku-XWk"/>
+                    <constraint firstAttribute="trailing" secondItem="poM-TT-Fxp" secondAttribute="trailing" constant="16" id="ycn-Uq-TUk"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
