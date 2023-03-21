@@ -11,6 +11,7 @@
 		77C5C27B29C939A200897949 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5C27A29C939A200897949 /* Pizza.swift */; };
 		77C5C27E29C93A6600897949 /* MyCustomCellXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5C27C29C93A6600897949 /* MyCustomCellXIB.swift */; };
 		77C5C27F29C93A6600897949 /* MyCustomCellXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C5C27D29C93A6600897949 /* MyCustomCellXIB.xib */; };
+		77C5C28129C93E8500897949 /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5C28029C93E8500897949 /* PriceViewController.swift */; };
 		77F0B28429C938EF00CBB239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B28329C938EF00CBB239 /* AppDelegate.swift */; };
 		77F0B28629C938EF00CBB239 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B28529C938EF00CBB239 /* SceneDelegate.swift */; };
 		77F0B28829C938EF00CBB239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B28729C938EF00CBB239 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		77C5C27A29C939A200897949 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		77C5C27C29C93A6600897949 /* MyCustomCellXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCellXIB.swift; sourceTree = "<group>"; };
 		77C5C27D29C93A6600897949 /* MyCustomCellXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCellXIB.xib; sourceTree = "<group>"; };
+		77C5C28029C93E8500897949 /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
 		77F0B28029C938EF00CBB239 /* ProjectRequestNine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectRequestNine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F0B28329C938EF00CBB239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77F0B28529C938EF00CBB239 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				77F0B28529C938EF00CBB239 /* SceneDelegate.swift */,
 				77C5C27A29C939A200897949 /* Pizza.swift */,
 				77F0B28729C938EF00CBB239 /* ViewController.swift */,
+				77C5C28029C93E8500897949 /* PriceViewController.swift */,
 				77C5C27C29C93A6600897949 /* MyCustomCellXIB.swift */,
 				77C5C27D29C93A6600897949 /* MyCustomCellXIB.xib */,
 				77F0B28929C938EF00CBB239 /* Main.storyboard */,
@@ -217,6 +220,7 @@
 			files = (
 				77C5C27B29C939A200897949 /* Pizza.swift in Sources */,
 				77C5C27E29C93A6600897949 /* MyCustomCellXIB.swift in Sources */,
+				77C5C28129C93E8500897949 /* PriceViewController.swift in Sources */,
 				77F0B28829C938EF00CBB239 /* ViewController.swift in Sources */,
 				77F0B28429C938EF00CBB239 /* AppDelegate.swift in Sources */,
 				77F0B28629C938EF00CBB239 /* SceneDelegate.swift in Sources */,
